@@ -3,6 +3,13 @@ import Particles from "../components/particles";
 import Link from "next/link";
 import { Card } from "../components/card";
 
+
+/*  -J'ai inséreé une vidéo
+    -gradient-to-tl est pour gradué les couleurs 
+    -Particles:  C'est les particules flottante dans le bckground
+    Cela inclut une carte contenant une video et une barre de navigation
+*/
+
 export default function projects () {
 
     return ( 
@@ -11,7 +18,7 @@ export default function projects () {
         className="absolute inset-0 -z-10 animate-fade-in"
         quantity={50}
       />
-      <Card >
+      <Card >  
       <span className="max-w-md w-full mx-auto p-4">
       <video
                     className="rounded-lg shadow-lg"
@@ -20,7 +27,7 @@ export default function projects () {
                     controls
                 >
                     <source src="/ei_ps_beaudin_yvens.mp4" type="video/mp4 "/>
-                    Your browser does not support the video tag.
+            
                 </video>
           <span
               className="absolute w-px h-2/3 bg-gradient-to-b from-zinc-500 via-zinc-500/50 to-transparent"
@@ -37,9 +44,6 @@ export default function projects () {
           </div>
           </span>  
   </Card>
-            <h1 className="">
-            Hello 
-        </h1>
         <Navigation/>
         </div>
         
