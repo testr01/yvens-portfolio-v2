@@ -7,7 +7,9 @@ const navigation = [
   { name: "Contact", href: "/contact" },
   { name: "About", href: "/about" },
 ];
-
+/*
+tout les pages sont dans le dossier app directement. Il ne sont pas dans le dossier Pages
+*/
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-blue via-zinc-600/70 to-black">
@@ -30,7 +32,7 @@ export default function Home() {
         quantity={100}
       />
     <h1 className="py-3.5 px-0.5 z-10 text-4xl bg-gradient-to-r from-red-600 via-orange-600 to-yellow-400 bg-clip-text text-transparent duration-1000 cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap">
-  Yvens -- Portfolio
+  Yvens-- Portfolio
 </h1>
 
 
