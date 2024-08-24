@@ -12,16 +12,7 @@ export const metadata: Metadata = {
   description: "Let my know if you like it ",
   openGraph: {
     title: "yvensportfolio.com",
-    description:
-      "Co-founder of unkey.dev and founder of planetfall.io",
-    url: "https://chronark.com",
-    siteName: "chronark.com",
     images: [
-      {
-        url: "https://chronark.com/og.png",
-        width: 1920,
-        height: 1080,
-      },
     ],
     locale: "en-US",
     type: "website",
@@ -36,10 +27,6 @@ export const metadata: Metadata = {
       "max-image-preview": "large",
       "max-snippet": -1,
     },
-  },
-  twitter: {
-    title: "Chronark",
-    card: "summary_large_image",
   },
   icons: {
     shortcut: "/logo2.png",
