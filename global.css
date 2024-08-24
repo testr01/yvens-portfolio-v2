@@ -8,3 +8,7 @@
   }
 } 
 
+
+.text-gradient {
+background :linear-gradient( to right, red, orange, yellow);
+}
