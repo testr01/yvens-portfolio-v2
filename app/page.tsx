@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-blue via-zinc-600/70 to-black px-4 sm:px-8 md:px-16">
       <nav className="my-8 md:my-16 animate-fade-in">
-        <ul className="flex flex-col sm:flex-row items-center justify-center gap-y-4 sm:gap-x-10 md:gap-x-20 lg:gap-x-40">
+      <ul className="flex flex-col sm:flex-row items-center justify-center gap-y-6 sm:gap-y-0 sm:gap-x-8 md:gap-x-16 lg:gap-x-20">
           {navigation.map((item) => (
             <Link
               key={item.href}
